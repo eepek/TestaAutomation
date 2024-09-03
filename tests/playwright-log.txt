@@ -1,0 +1,32 @@
+{"level":30,"time":"2024-09-03T06:39:05.884Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Listening on 51292"}
+(node:10904) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2024-09-03T06:39:06.147Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-03T06:39:06.148Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-03T06:39:06.150Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-03T06:39:06.150Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-03T06:39:06.153Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2024-09-03T06:39:07.282Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Adding browser to stack: chromium, version: 128.0.6613.18"}
+{"level":30,"time":"2024-09-03T06:39:07.282Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"End of node method newBrowser"}
+{"level":30,"time":"2024-09-03T06:39:07.282Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2024-09-03T06:39:07.289Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Start of node method newPage"}
+{"level":30,"time":"2024-09-03T06:39:07.290Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2024-09-03T06:39:07.299Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Changed active context"}
+{"level":30,"time":"2024-09-03T06:39:07.551Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Video path: undefined"}
+{"level":30,"time":"2024-09-03T06:39:07.551Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Changed active page"}
+{"level":30,"time":"2024-09-03T06:39:10.754Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"End of node method newPage"}
+{"level":30,"time":"2024-09-03T06:39:15.763Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-03T06:39:15.769Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-03T06:39:15.771Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-03T06:39:15.774Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2024-09-03T06:39:15.780Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Changed active context"}
+{"level":30,"time":"2024-09-03T06:39:15.781Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Changing current active page: page=a0dc6e35-89d4-465e-836c-05f6f2210244"}
+{"level":30,"time":"2024-09-03T06:39:15.781Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Changed active page"}
+{"level":30,"time":"2024-09-03T06:39:15.782Z","pid":10904,"hostname":"AWA5CD2297Z13","msg":"Removed page=9c82db93-643d-4f58-9b49-e25e6c8113b7 from context=b94c50ea-45c2-4126-99ac-7db53b8656e7 page stack"}
+================= Original suppressed error =================
+page.bringToFront: Target page, context or browser has been closed
+    at BrowserState.activatePage (C:\Users\Eepe\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:10953:18)
+    at _switchPage (C:\Users\Eepe\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11199:24)
+    at switchContext (C:\Users\Eepe\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11269:11)
+    at async PlaywrightServer.switchContext (C:\Users\Eepe\AppData\Local\Programs\Python\Python312\Lib\site-packages\Browser\wrapper\index.js:11559:24)
+=============================================================
